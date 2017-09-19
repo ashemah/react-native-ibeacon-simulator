@@ -17,7 +17,7 @@ public class BeaconBroadcastPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new BeaconBroadcast(reactContext));
     }
 
-    @Override
+    // Override removed for React v47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
